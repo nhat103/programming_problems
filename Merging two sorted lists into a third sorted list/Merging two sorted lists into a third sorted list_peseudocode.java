@@ -8,5 +8,8 @@ result <- new.list
 		else 
 			fresh.top_item -> new.list ;
 	}
+	
+	if sea empty -> list.addll(fresh)
+	if fresh empty -> list.addll(sea)
 
 	return new.list;
